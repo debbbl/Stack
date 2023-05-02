@@ -47,6 +47,7 @@ public class MyStack <E>{
         String reverse="";
         while(!stack.isEmpty())
             reverse+=stack.pop();
+        //hhhhh
 
         String forward="";
         for(int i=0;i<reverse.length();i++){
